@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "strict": true, // Toggles all the strict rules in typescript
+        "noImplicitAny": true, // Strict rule: Avoids compiler to default a type to "any" is it cannot infer from context
+        "strictNullChecks": true, // Strict rule: Makes handling null and undefined more explicit, and spares us from worrying about whether we forgot to handle null and undefined.
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "files": [
+        "Types/any.ts",
+        "Types/array-type.ts",
+    ]
+}
