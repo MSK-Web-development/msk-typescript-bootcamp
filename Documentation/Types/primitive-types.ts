@@ -6,3 +6,5 @@ let y: number = 10;
 
 // boolean type
 let z: boolean = false;
+
+
