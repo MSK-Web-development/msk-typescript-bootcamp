@@ -1,6 +1,7 @@
 /*
  ? Annotating Functions parameters
- * TypeScript allows you to specify the types of both the input and output values of functions.
+
+ - TypeScript allows you to specify the types of both the input and output values of functions.
  */
 
  function printCarDetails(make: string, model: number, sedan: boolean) {

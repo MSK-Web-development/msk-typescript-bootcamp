@@ -1,13 +1,13 @@
 # Machine setup
 ---
 ### Instructions
-In this lab, you will setup setup your machine with all the tools needed for this bottcamp and get started.
+In this lab, you will set up your machine with all the tools needed for this Bootcamp and get started.
 
 ##### Steps to perform,
 1. Install Visual Studio Code. ( [download](https://code.visualstudio.com/) )
 2. Install the latest stable version of Node. ( [download](https://nodejs.org/en/) )
 3. Install Google chrome. ( [download](https://www.google.com/chrome/?brand=JJTC&gclid=Cj0KCQjwvaeJBhCvARIsABgTDM4FHP2ARsAM-vaRZV_gmTuytbw4yrSC7LGmoycfzTsxuVXwGFxNkBkaApnsEALw_wcB&gclsrc=aw.ds) ) 
-4. Open VS code, in the topmenubar click on ```view -> extensions```, then search and install all the below extensions by typing the extension name in the search field.
+4. Open VS code, in the top menubar, click on ```view -> extensions```, then search and install all the below extensions by typing the extension name in the search field.
 
 ```
 - Markdown Preview Enhanced

@@ -1,10 +1,24 @@
 // string type
-let x: string = "Hello, world";
+let a: string = "Hello, world";
 
 // number type
-let y: number = 10;
+let b: number = 10;
 
 // boolean type
-let z: boolean = false;
+let c: boolean = false;
+
+// null type
+let d: null = null;
+
+// undefined type
+let e: undefined = undefined;
+
+// bigint type
+let f: bigint = BigInt(100);
+
+// symbol type
+let g: symbol = Symbol("name")
+
+// ... and the rest of JS primitive types are also TS types.
 
 
