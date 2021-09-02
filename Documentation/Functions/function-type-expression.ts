@@ -5,7 +5,8 @@
  - If a parameter type isn't specified, it is "any" implicitely. (just like other types)
  */
 
-//* Example object type with function fields
+
+//* Example object type with function properties
 type Car = {
     make: string,
     model: number | string,

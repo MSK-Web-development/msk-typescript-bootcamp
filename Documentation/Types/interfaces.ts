@@ -4,11 +4,13 @@
 - Interfaces are a way to name Object types
 */
 
-// Object type alias
+//* Object type alias (an interface)
 interface Car {
     make: string;
     model: string | number;
     sedan: boolean;
+    accelerate: () => void;
+    decelerate(): void;
 }
 
 function printCarDetails(carObj: Car) {
@@ -18,6 +20,12 @@ function printCarDetails(carObj: Car) {
 printCarDetails({
     make: "Hyundai",
     model: 2009,
-    sedan: false
+    sedan: false,
+    accelerate: () => {
+        console.log("accelerated the car")
+    },
+    decelerate: () => {
+        console.log("decelerated the car")
+    }
 })
 
