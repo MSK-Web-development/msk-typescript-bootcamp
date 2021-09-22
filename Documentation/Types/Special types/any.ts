@@ -1,7 +1,9 @@
 /* 
-? "any" is a special type.
+? Special type | "any" 
 
-- TypeScript also has a special type, any, that you can use whenever you don’t want a particular value to cause typechecking errors.
+NOTES:
+- TypeScript also has a special type, any, that you can use whenever you don’t want a 
+  particular value to cause typechecking errors.
 - "any" is a bit unsafe to use.
 */
 

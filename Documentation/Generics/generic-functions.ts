@@ -3,6 +3,7 @@
 
 - Used when you want function output types to be related to input types
 - The type was inferred / chosen automatically by TypeScript.
+- You can avoid function overloading using generic functions.
 */
 
 //* Using single Generic Type

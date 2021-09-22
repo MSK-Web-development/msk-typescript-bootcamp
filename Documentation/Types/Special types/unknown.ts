@@ -1,7 +1,9 @@
 /* 
-? "unknown" is a special type.
+? Special type | "unknown" 
 
+NOTES:
   - It is similar to "any" type.
+  - It is a 'little bit" safer than "any" type
 */
 
 let a: unknown = document.getElementById("my-element");

@@ -1,6 +1,7 @@
 /*
-?  The "never" type
+?  Special type | "never" 
 
+NOTES:
 - Some functions never return a value.
  */
 
@@ -22,7 +23,7 @@ function printCarDetails(make: string | number) {
     if (typeof make === "string") {
         console.log(make.toUpperCase())
     } else if (typeof make === "number") {
-        console.log(make)
+        console.log(make++)
     } else {
         //  Here the type of make is "never"
     }
