@@ -1,6 +1,7 @@
 /*
 ? Literal Inference
 
+NOTES:
 - In an object type, TS will infer a general type for its properties. Not the literals
 - You can force this with the "as" keyword for the properties.
 */

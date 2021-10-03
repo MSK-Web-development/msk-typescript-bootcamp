@@ -1,7 +1,8 @@
 /*
 ? Interfaces
 
-- Interfaces are a way to name Object types
+NOTES
+- Interfaces are yet another way to name Object types
 */
 
 //* Object type alias (an interface)
@@ -17,6 +18,7 @@ function printCarDetails(carObj: Car) {
     console.log(`My car is ${carObj.make}`);
     console.log(`My car was launched in ${carObj.model}`);
 }
+
 printCarDetails({
     make: "Hyundai",
     model: 2009,

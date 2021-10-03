@@ -1,9 +1,8 @@
 /*
 ? Union Types
 
-- A union type is a type formed from two or more other types, representing values that may 
-- be any one of those types. We refer to each of these types as the union’s members.
-
+NOTES:
+- A union type is a type formed from two or more other types, representing values that may be any one of those types. We refer to each of these types as the union’s members.
 - Use the pipe | operator to combine types.
 */
 
@@ -36,7 +35,12 @@ function printCarModelV2(model: number | string) {
     }
 }
 
+// No Error
 printCarModelV2(2009);
+
+// No Error
+printCarModelV2("2009");
+
 
 // Example 2: When members support common operations
 function sliceTheInput(x: string[] | string) {

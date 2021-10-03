@@ -1,0 +1,12 @@
+{
+  "name": "msk-typescript-bootcamp",
+  "version": "1.0.0",
+  "description": "TypeScript playground",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "npm run build && node index.js" 
+  },
+  "author": "Manoj Satishkumar",
+  "license": "ISC"
+}

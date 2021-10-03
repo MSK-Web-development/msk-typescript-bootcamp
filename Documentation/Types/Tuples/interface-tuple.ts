@@ -1,10 +1,17 @@
-// Another way to declare a Tuple type is with interface (With specialized properties)
-interface BikeDetailsTuple {
-    length: 2;
+/*
+? Tuples with Interfaces
+
+NOTES:
+- Another way to declare a Tuple type is with interface (With specialized properties)
+*/
+
+interface CarDetailsTuple {
+    length: 4;
 
     0: number;
-    1: string
-};
-const myBike: BikeDetailsTuple = [2021, "hero"];
+    1: string;
+    2: boolean;
+    3: "India" | "US"
+}
 
-// Todo: Add example usage
+const myCar: CarDetailsTuple = [2021, "BMW", true, "India"];

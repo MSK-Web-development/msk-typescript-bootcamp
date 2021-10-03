@@ -1,7 +1,8 @@
 /*
- ? Renaming primitives
+ ? Interfaces VS Type aliases | "Renaming primitives"
 
-   Type aliases can be used to rename primitives but Interfaces can't
+ NOTES:
+ - Type aliases can be used to rename primitives but Interfaces can't
  */
 
 //* Type alias able to rename

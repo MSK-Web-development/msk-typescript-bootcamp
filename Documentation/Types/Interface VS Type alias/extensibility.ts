@@ -1,8 +1,9 @@
 /*
- ? Extensibility
+ ? Interfaces VS Type aliases | "Extensibility"
  
-   You can extend an interface but you cannot extend a type. 
-   Instead you can use intersections to achieve the same.
+ NOTES:
+   - You can extend an interface but you cannot extend a type. 
+   - Instead you can use intersections to achieve the same.
  */
 
 // Interface example

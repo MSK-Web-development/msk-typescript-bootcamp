@@ -1,4 +1,8 @@
-// Of course, you can combine literals with non-literal types:
+/*
+? Example 2
+? Creating your own literal type with non-literal combinations
+
+*/
 
 interface Car {
     make: string;

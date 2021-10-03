@@ -1,3 +1,9 @@
+/*
+? Array assertion inference
+
+*/
+
+
 // Array literals with const assertions will be inferred with "readonly" tuple types.
 let carDetails = [2021, "BMW"] as const;
 

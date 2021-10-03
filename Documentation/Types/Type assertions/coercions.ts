@@ -1,6 +1,7 @@
 /*
 ? Impossible coercions
 
+NOTES:
 - TypeScript only allows type assertions which convert to a more specific or less specific version of a type. 
 - This rule prevents “impossible” coercions.
 */

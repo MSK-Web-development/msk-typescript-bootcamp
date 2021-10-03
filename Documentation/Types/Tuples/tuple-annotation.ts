@@ -1,6 +1,7 @@
 /*
 ? Tuple types
 
+NOTES:
 - Just like Array type but,
 - Tuples know exactly how many items it contains.
 - Tuples know which types are at which positions
