@@ -1,3 +1,1 @@
-# MSK TypeScript bootcamp
-
-- TypeScript version covered: TypeScript 4.4
+### Click [here](https://topmate.io/manoj_satishkumar) to start the TypeScript Bootcamp.
